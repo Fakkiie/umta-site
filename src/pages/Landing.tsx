@@ -3,9 +3,9 @@ import { landingPageData } from "@/data";
 
 export default function LandingPage() {
   return (
-    <main className="w-full pt-[7.5rem] min-h-screen">
+    <main className="w-full pt-[7.5rem] min-h-screen bg-black text-white">
       {/* banner image */}
-      <div className="w-full h-[25rem] bg-gray-200 flex items-center justify-center">
+      <div className="w-full h-[25rem]">
         <Image
           src={landingPageData.bannerImage}
           alt="Banner"
@@ -13,8 +13,8 @@ export default function LandingPage() {
         />
       </div>
 
-      {/* club hist and success  */}
-      <div className="flex flex-col md:flex-row justify-between px-[1.5rem] md:px-[5rem] mt-[2rem] py-[3rem] gap-[3rem] bg-black text-white">
+      {/* content section */}
+      <div className="flex flex-col md:flex-row justify-between px-[1.5rem] md:px-[5rem] mt-[2rem] py-[3rem] gap-[3rem]">
         <div className="md:w-1/2">
           <h2 className="text-2xl font-bold mb-[1rem]">
             {landingPageData.clubHistory.title}
@@ -36,5 +36,6 @@ export default function LandingPage() {
         </div>
       </div>
     </main>
+
   );
 }
