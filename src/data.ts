@@ -8,7 +8,7 @@ import frontpage from "@/assets/frontpage.jpg";
 export const landingPageData = {
   bannerImage: frontpage,
   clubHistory: {
-    title: "Club history placeholder blurb",
+    title: "Club history placeholder test",
     text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
       ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
