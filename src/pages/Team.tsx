@@ -4,7 +4,7 @@ import React from "react";
 import TeamCard from "@/components/TeamCard";
 import { teamData } from "@/data";
 import Image from "next/image";
-import exec from "@/assets/exec.jpg";
+import exec from "@/assets/exec.jpeg";
 
 export default function Teams() {
   return (
