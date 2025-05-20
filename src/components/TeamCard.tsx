@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function TeamCard({ member }: { member: any }) {
 	return (
 		<div className="flex flex-col items-center text-center">

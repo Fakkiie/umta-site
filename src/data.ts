@@ -65,7 +65,7 @@ export const eventData = [
   {
     title: "Criminal Law Moot: Case TBA",
     description:
-      "TBS",
+      "June 28th, 2025",
   },
   {
     title: "Criminal Mock trial: Case TBA ",
