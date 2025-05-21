@@ -22,8 +22,8 @@ export const landingPageData = {
     list: [
       "2025 UWaterloo Black and Gold Invitational Champions",
       "2025 UWestern Invitational Finalists",
-      "2025 Lloyd Dean Moot Winners; Matthew Livingstone & Joseph Murtagh"
-      "2025 Lloyd Dean Moot Finalists; Matthew Livingstone & Joseph Murtagh"
+      "2025 Lloyd Dean Moot Winners; Matthew Livingstone & Joseph Murtagh",
+      "2025 Lloyd Dean Moot Finalists; Matthew Livingstone & Joseph Murtagh",
       ".......",
     ],
   },
