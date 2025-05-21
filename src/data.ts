@@ -9,19 +9,14 @@ export const landingPageData = {
   bannerImage: frontpage,
   clubHistory: {
     title: "Club history placeholder test",
-    text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-      ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-      aliquip ex ea commodo consequat. Duis aute irure dolor in
-      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-      pariatur.`,
+    text: `Founded in 2022, the Undergraduate Mock Trial Association (UMTA) at the University of Windsor is a student-run organization dedicated to developing legal advocacy, public speaking, and critical thinking skills through competitive mock trial. Since its inception, UMTA has grown from a small group of aspiring legal minds to a nationally recognized team, competing in tournaments across Canada against top-tier universities. With a strong emphasis on collaboration, professionalism, and experiential learning, UMTA provides students with an unmatched opportunity to simulate real courtroom trials and prepare for future careers in law and beyond.`,
       
   },
   successes: {
     title: "Recent Successes",
     list: [
       "2025 UWaterloo Black and Gold Invitational Champions",
-      "2025 UWestern Invitational Finalists",
+      "2025 Western University Invitational Finalists",
       "2025 Lloyd Dean Moot Winners: Matthew Livingstone & Joseph Murtagh",
       "2025 Lloyd Dean Moot Finalists: Natalija Crvenkovski & Gabriela Duarte Meo",
       ".......",
