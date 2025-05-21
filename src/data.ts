@@ -28,7 +28,7 @@ export const landingPageData = {
 };
 export const teamData = [
   {
-    name: "Natalija Crvenkovsk",
+    name: "Natalija Crvenkovski",
     firstName: "Natalija",
     lastName: "Crvenkovsk",
     role: "President",
