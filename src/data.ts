@@ -30,7 +30,7 @@ export const teamData = [
   {
     name: "Natalija Crvenkovski",
     firstName: "Natalija",
-    lastName: "Crvenkovsk",
+    lastName: "Crvenkovski",
     role: "President",
     blurb: "Natalija Crvenkovski is the President of the University of Windsor's Undergraduate Mock Trial Association for the 2024-2025 and 2025-2026 academic years. She is a fourth-year honours philosophy student who enjoys studying the intersections of law and philosophy, with a particular interest in AI ethics and governance. Through her role as President, she is committed to building a team culture grounded in intellectual curiosity, collaboration, and a passion for justice.",
     image: nc, 
