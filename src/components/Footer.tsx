@@ -24,6 +24,7 @@ export default function Footer() {
                 <Image src={instagram} alt="Instagram" width={24} height={24} />
                 <a
                   href="https://www.instagram.com/uwinmocktrial/"
+                  target="_blank"
                   className="border-b-[1px] border-black pb-[1px] hover:text-blue-700"
                 >
                   @uwinmocktrial
