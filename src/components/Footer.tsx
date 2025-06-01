@@ -22,7 +22,14 @@ export default function Footer() {
               <h3 className="text-lg font-semibold">Follow us!</h3>
               <div className="flex items-center gap-2">
                 <Image src={instagram} alt="Instagram" width={24} height={24} />
-                <span>@uwinmocktrial</span>
+                <a
+                  href="https://www.instagram.com/uwinmocktrial/"
+                  className="border-b-[1px] border-black pb-[1px] hover:text-blue-700"
+                >
+                  @uwinmocktrial
+                </a>
+
+
               </div>
             </div>
 
@@ -30,12 +37,13 @@ export default function Footer() {
             <div className="flex flex-col items-center md:items-end">
               <h3 className="text-lg font-semibold">Questions? Concerns?</h3>
               <div className="flex items-center gap-2">
-                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center">
-                  <Image src={mail} alt="Mail" width={10} height={10} />
-                </div>
+              <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center">
+                <Image src={mail} alt="Mail" width={16} height={16} />
+              </div>
+
                 <a
                   href="mailto:umta@uwindsor.ca"
-                  className="underline hover:text-blue-700"
+                  className="border-b-[1px] border-black pb-[1px] hover:text-blue-700"
                 >
                   umta@uwindsor.ca
                 </a>
