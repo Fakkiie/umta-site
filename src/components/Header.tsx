@@ -21,7 +21,10 @@ export default function Header() {
       <div className="w-full bg-red-700 text-white text-center py-2 overflow-hidden">
         <div className="mx-auto w-fit animate-marquee whitespace-nowrap">
           Applications now open!{" "}
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSc-FsaWJ_zOGuIUvZyRXGB22FxA33xigO5-HViY4kETdYDIDg/viewform?usp=sf_link"  target="_blank" className="underlinefont-semibold">
+          <Link 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc-FsaWJ_zOGuIUvZyRXGB22FxA33xigO5-HViY4kETdYDIDg/viewform?usp=sf_link"  
+            target="_blank" 
+            className="underline">
             Click here to apply to UMTA.
           </Link>
         </div>
@@ -51,7 +54,7 @@ export default function Header() {
             aria-label={`Navigate to ${name}`}
           >
             <a
-              className={`hover:text-[#0E5791] hover:cursor-pointer transition ${
+              className={`hover:text-gray-700 hover:cursor-pointer transition ${
                 pathname === href ? "text-primary font-semibold" : ""
               }`}
             >

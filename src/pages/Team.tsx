@@ -10,7 +10,7 @@ export default function Teams() {
   return (
     <main className="w-full pt-[7.5rem] pb-[5%] bg-white min-h-screen">
       
-      {/* 📸 Exec Banner Image */}
+      {/* Exec Banner Image */}
       <div className="relative w-full h-[16rem] mt-[1.5rem]">
         <Image
           src={exec}
@@ -21,10 +21,10 @@ export default function Teams() {
         />
       </div>
 
-      {/* 🔻 Clean Black Divider */}
+      {/* Black divider */}
       <hr className="w-[80%] mx-auto border-t border-black/10 my-6" />
 
-      {/* 👥 Team Grid */}
+      {/* Team Grid */}
       <section className="w-full flex justify-center mt-4">
         <div className="w-[90%] lg:w-[75%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-[4rem] gap-x-[2.5rem] text-black">
           {teamData.map((member, index) => (
