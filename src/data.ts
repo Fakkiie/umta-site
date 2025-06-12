@@ -8,11 +8,7 @@ import frontpage from "@/assets/frontpage.jpg";
 export const landingPageData = {
   bannerImage: frontpage,
   clubHistory: {
-<<<<<<< HEAD
     title: "UMTA Club history",
-=======
-    title: "Club history",
->>>>>>> 4229a088b573b9ed37cbc09f70d48ed0e328eddd
     text: `Founded in 2016, the Undergraduate Mock Trial Association (UMTA) at the University of Windsor is a student-run organization dedicated to developing legal advocacy, public speaking, and critical thinking skills through competitive mock trial. Since its inception, UMTA has grown from a small group of aspiring legal minds to a nationally recognized team, competing in tournaments across Canada against top-tier universities. With a strong emphasis on collaboration, professionalism, and experiential learning, UMTA provides students with an unmatched opportunity to simulate real courtroom trials and prepare for future careers in law and beyond.`,
       
   },
