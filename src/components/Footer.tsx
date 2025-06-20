@@ -1,16 +1,15 @@
-"use client";
-import Image from "next/image";
-import React from "react";
-import instagram from "@/assets/instagram.png";
-import mail from "@/assets/mail.png";
-import logo from "@/assets/logo.png";
+'use client';
+import Image from 'next/image';
+import React from 'react';
+import instagram from '@/assets/instagram.png';
+import mail from '@/assets/mail.png';
+import logo from '@/assets/logo.png';
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t w-full px-6 md:px-20 py-10 text-black">
-      <div className="flex flex-col md:flex-row justify-between items-center gap-12 text-center md:text-left">
-        {/* Logo Section */}
-        <div className="flex flex-col items-center">
+    <footer className="bg-white border-t w-full py-10 text-black">
+      <div className="layout-container flex-col md:flex-row justify-between items-center gap-12 text-center md:text-left">
+        <div className="logo-wrapper">
           <Image src={logo} alt="Logo" width={80} height={80} />
         </div>
 
@@ -29,8 +28,6 @@ export default function Footer() {
                 >
                   @uwinmocktrial
                 </a>
-
-
               </div>
             </div>
 
@@ -38,9 +35,9 @@ export default function Footer() {
             <div className="flex flex-col items-center md:items-end">
               <h3 className="text-lg font-semibold">Questions? Concerns?</h3>
               <div className="flex items-center gap-2">
-              <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center">
-                <Image src={mail} alt="Mail" width={16} height={16} />
-              </div>
+                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center">
+                  <Image src={mail} alt="Mail" width={16} height={16} />
+                </div>
 
                 <a
                   href="mailto:umta@uwindsor.ca"

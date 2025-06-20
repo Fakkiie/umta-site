@@ -3,8 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #ffffff;
-  --font-heading: "Copperplate", "Copperplate Gothic Light", serif;
-  --font-body: "Times New Roman", Times, serif;
+  --font-heading: 'Libre Baskerville', serif;
+  --font-body: 'Lato', 'Open Sans', sans-serif;
+  --font-body-bold: 'Lato Bold', 'Open Sans', sans-serif;
 }
 
 @theme inline {
@@ -37,4 +38,20 @@ h1, h2, h3, h4, h5, h6 {
 .image-top-crop {
   object-fit: cover;
   object-position: center 25%;
+}
+
+.layout-container {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.logo-wrapper {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
